@@ -15,3 +15,10 @@ socket.on('nickname rebut', function(data) {
 
 })
 
+
+socket.on('salutacio', function(data) {
+
+    console.log(data)
+
+})
+

@@ -29,6 +29,16 @@ io.on("connection", (socket) => {
 
 });
 
+var comptador = 1;
+
+setInterval(() => {
+    console.log('envio missatge a tots els clients')
+    io.emit('salutacio', comptador);
+    comptador++;
+}, 5000);
+
+
+
 httpServer.listen(3000, ()=>
     console.log(`Server listening at http://localhost:3000`)
 );
