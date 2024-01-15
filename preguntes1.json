@@ -1,0 +1,23 @@
+[
+    {
+      "pregunta": "El riu més llarg és?",
+      "respostes": {
+        "a": "Amazonas",
+        "b": "Nilo",
+        "c": "Yangtsé",
+        "d": "Misisipi"
+      },
+      "correcta": "Nilo"
+    },
+    {
+      "pregunta": "¿Oceà més gran?",
+      "respostes": {
+        "a": "Oceà Pacífic",
+        "b": "Oceà Atlántic",
+        "c": "Oceà Índic",
+        "d": "Oceà Antàrtic"
+      },
+      "correcta": "Oceà Pacífic"
+    }
+  
+  ]

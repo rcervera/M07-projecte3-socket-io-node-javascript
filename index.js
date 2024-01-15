@@ -17,6 +17,9 @@ io.on("connection", (socket) => {
     socket.on("nickname", function(data) {
             console.log(data.nickname)
             
+            socket.data.nickname = data.nickname
+            socket.data.errors  = 0;
+            
             // respondre al que ha enviat
             socket.emit("nickname rebut",{"response":"ok"})
 
@@ -37,6 +40,9 @@ setInterval(() => {
     comptador++;
 }, 5000);
 
+
+const config = require('./preguntes1.json');
+console.log(config[1]);
 
 
 httpServer.listen(3000, ()=>
